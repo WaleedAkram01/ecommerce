@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+<body class="font-sans">
+    <!-- navbar goes here -->
+    <div
+        class=" flex justify-between px-10 py-2 md:px-14 md:py-3 lg:py-4 lg:px-20  items-center bg-blue-200 top-0 sticky z-40">
+        <div><img class=" lg:h-12 cursor-pointer" src="https://developer-256.github.io/ecommerce-website/img/logo.png"
+                alt="This is logo">
+        </div>
+        <ul class="flex items-center gap-10 text-2xl font-semibold text-gray-700">
+            <li class="text-yellow-800 hidden lg:block"><a href="cara.html">Home</a></li>
+            <li class="cursor-pointer hover:text-yellow-800 hidden lg:block"><a href="shop.html">Shop</a></li>
+            <li class="cursor-pointer hover:text-yellow-800 hidden lg:block"><a href="blog.html">Blog</a></li>
+            <li class="cursor-pointer hover:text-yellow-800 hidden lg:block"><a href="about.html">About</a></li>
+            <li class="cursor-pointer hover:text-yellow-800 hidden lg:block"><a href="contact.html">Contact</a></li>
+            <li class="cursor-pointer hover:text-yellow-800"><i class="ri-shopping-bag-line"></i></li>
+            <li class="lg:hidden"><i class="ri-align-justify"></i></li>
+        </ul>
+
+    </div>
+    <!-- navbar ends here -->
+
+    <!-- hero section goes here -->
+    <div class="relative ">
+        <div class="absolute text-black    transform  -translate-y-1/2 top-1/2  font-semibold ml-2 lg:ml-14  md:ml-14 ">
+            <div class="text-sm  md:text-xl text-gray-600 font-bold ">Trade-in-offer</div>
+            <div class="text-xl md:text-4xl lg:text-6xl text-gray-600 font-bold md:mt-1 lg:mt-3">Super value deals</div>
+            <div class="text-xl md:text-5xl lg:text-7xl text-green-800 lg:mt-3 font-bold md:mt-1">On all products</div>
+            <div class="text-sm lg:text-lg text-gray-700 mt-1 md:mt-2 lg:mt-3">Save more with coupons & upto 70% off!
+            </div>
+
+            <div class="relative inline-block mt-2 md:mt-3">
+                <span
+                    class="absolute top-1/2 left-1/2 transform cursor-pointer -translate-x-1/2 -translate-y-1/2 text-sm lg:text-lg text-green-700">Shop
+                    Now</span>
+                <img class="w-40 lg:w-56" src="https://developer-256.github.io/ecommerce-website/img/button.png" alt="">
+            </div>
+        </div>
+        <div><img src="https://developer-256.github.io/ecommerce-website/img/hero.jpg" alt=""></div>
+    </div>
+    <!-- hero section end here -->
+
+    <!-- cards goes here -->
+    <div class="flex sm:mx-1 sm:gap-4 lg:mx-2 my-10 flex-wrap items-center justify-center md:gap-4 lg:gap-8 gap-1 ">
+        <div
+            class="border-2  border-gray-400 flex flex-col justify-center items-center p-2 rounded-2xl  shadow-lg hover:shadow-2xl w-36 h-36 md:w-40 md:h-40 mb-6 sm:mb-0">
+            <img src="https://developer-256.github.io/ecommerce-website/img/features/f1.png" alt="">
+
+            <h1 class="bg-blue-200 text-green-600 rounded-md p-1 text-sm mt-1">Free Shipping</h1>
+        </div>
+
+
+
+
+        <div
+            class="border-2  border-gray-400 flex flex-col justify-center items-center p-2 rounded-2xl shadow-lg hover:shadow-2xl w-36 h-36 mb-6 sm:mb-0 md:w-40 md:h-40">
+            <img src="https://developer-256.github.io/ecommerce-website/img/features/f2.png" alt="">
+            <h1 class="bg-pink-200 text-green-600 rounded-md p-1 text-sm mt-1">Online Order</h1>
+        </div>
+
+
+        <div
+            class="border-2  border-gray-400 flex flex-col justify-center items-center p-2 rounded-2xl shadow-lg hover:shadow-2xl w-36 h-36 mb-6 sm:mb-0 md:w-40 md:h-40">
+            <img src="https://developer-256.github.io/ecommerce-website/img/features/f3.png" alt="">
+            <h1 class="bg-gray-200 text-green-600 rounded-md p-1 text-sm mt-1">Save Money</h1>
+        </div>
+        <div
+            class="border-2  border-gray-400 flex flex-col justify-center items-center p-2 rounded-2xl shadow-lg hover:shadow-2xl w-36 h-36 md:w-40 md:h-40 mb-6 sm:mb-0 ">
+            <img src="https://developer-256.github.io/ecommerce-website/img/features/f4.png" alt="">
+            <h1 class="bg-blue-200 text-green-600 rounded-md p-1 text-sm mt-1">Promotions</h1>
+        </div>
+
+        <div
+            class="border-2  border-gray-400 flex flex-col justify-center items-center p-2 rounded-2xl shadow-lg hover:shadow-2xl w-36 h-36 md:w-40 md:h-40 mb-6 sm:mb-0 ">
+            <img src="https://developer-256.github.io/ecommerce-website/img/features/f5.png" alt="">
+            <h1 class="bg-purple-200 text-green-600 rounded-md p-1 text-sm mt-1">Happy Sell</h1>
+        </div>
+
+        <div
+            class="border-2  border-gray-400 flex flex-col justify-center items-center p-2 rounded-2xl shadow-lg hover:shadow-2xl w-36 h-36 md:w-40 md:h-40 mb-6 sm:mb-0 ">
+            <img src="https://developer-256.github.io/ecommerce-website/img/features/f6.png" alt="">
+            <h1 class="bg-pink-200 text-green-600 rounded-md p-1 text-sm mt-1">F24/7 Support</h1>
+        </div>
+    </div>
+
+
+    <!-- featured products goes here -->
+    <div class="flex flex-col mb-10 md:mt-20 md:mb-20 items-center justify-center md:gap-4">
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-700 ">Featured Products</h1>
+        <p class="text-sm md:text-lg">Summer Collection New Modern Design</p>
+    </div>
+
+
+    <!-- featured product card goes here -->
+    <div class="flex gap-12 mx-4 mb-4 flex-wrap justify-center ">
+
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold  hover:text-green-700 ">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line  bg-gray-300 hover:bg-green-300 p-3 rounded-full "></i></div>
+            </div>
+        </div>
+
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-300">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   p-3 rounded-full  bg-gray-300 hover:bg-green-300"></i></div>
+            </div>
+        </div>
+
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-300">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-300">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between  font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   p-3 rounded-full  bg-gray-300 hover:bg-green-300"></i></div>
+            </div>
+        </div>
+
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700 ">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line  bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line  p-3 rounded-full  bg-gray-300 hover:bg-green-300"></i></div>
+            </div>
+        </div>
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="relative my-10">
+        <div
+            class="absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col gap-1 lg:gap-4 font-bold sm:gap-2">
+            <div class="text-lg md:text-2xl text-gray-300">Repair Services</div>
+            <div class="text-lg sm:text-xl md:text-2xl lg:text-5xl text-gray-300">Up to <span class="text-red-500">70%
+                    OFF</span> - All t-Shirts</div>
+            <div><button class="bg-gray-300 p-1 md:p-2 lg:p-3 hover:bg-green-300 text-sm">Explore More</button></div>
+        </div>
+        <div> <img src="https://developer-256.github.io/ecommerce-website/img/banner/b2.jpg" alt=""></div>
+    </div>
+
+
+    <!-- new Arrival Products Goes here -->
+
+    <div class="flex justify-center items-center flex-col gap-2 
+">
+        <div class="lg:text-6xl text-3xl md:text-4xl font-bold text-gray-600">New Arrivals</div>
+        <div class=" md:font-semibold  md:text-lg">Summer Collection New Modern Design</div>
+    </div>
+
+    <div class="flex gap-12 my-10 md:my-20 flex-wrap justify-center ">
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   p-3 rounded-full  bg-gray-300 hover:bg-green-300"></i></div>
+            </div>
+        </div>
+
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line  bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700 ">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line  p-3 rounded-full  bg-gray-300 hover:bg-green-300"></i></div>
+            </div>
+        </div>
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+        <div class="border-2 rounded-lg px-4 py-3 flex flex-col gap-1 w-64 shadow-lg hover:shadow-2xl">
+            <div class=""><img class="border-2 rounded-lg"
+                    src="https://developer-256.github.io/ecommerce-website/img/products/f1.jpg" alt="This is product">
+            </div>
+            <div class="text-gray-400">addidas</div>
+            <div class=" font-semibold hover:text-green-700">Cartoon Astronaut T-Shirst</div>
+            <div class="text-lg ">
+                <i class="ri-star-fill  text-yellow-600"></i><i class="ri-star-fill text-yellow-600"></i><i
+                    class="ri-star-fill  text-yellow-600"></i><i class="ri-star-half-fill  text-yellow-600"></i><i
+                    class="ri-star-fill"></i>
+            </div>
+            <div class="flex justify-between text-green-900 font-bold text-lg">
+                <div>$78</div>
+                <div><i class="ri-shopping-cart-line   bg-gray-300 hover:bg-green-300 p-3 rounded-full"></i></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="flex flex-col lg:flex-row gap-4 lg:items-center lg:justify-center mx-5">
+        <div class="relative lg:w-5/12">
+            <div class="absolute text-white top-1/2 transform -translate-y-1/2 flex flex-col gap-1 md:gap-2 p-7">
+                <div class="text-lg">crazy deals</div>
+                <div class="text-2xl md:text-4xl font-bold">buy 1 get 1 free</div>
+                <div class="md:text-lg">The best classic dress is on sale at Cara</div>
+                <span>
+                    <button class="border-2 p-1 hover:bg-green-700 text-sm md:text-lg">Learn More</button>
+                </span>
+            </div>
+            <img class="w-full " src="https://developer-256.github.io/ecommerce-website/img/banner/b17.jpg" alt="">
+        </div>
+        <div class="relative lg:w-5/12 ">
+            <div class="absolute text-white top-1/2 transform -translate-y-1/2 flex flex-col gap-1 md:gap-2 p-7">
+                <div class="text-lg">spring/summer</div>
+                <div class="text-2xl md:text-4xl font-bold">upcoming season</div>
+                <div class="md:text-lg">The best classic dress is on sale at Cara</div>
+                <span>
+                    <button class="border-2 p-1 hover:bg-green-700 text-sm md:text-lg">Learn More</button>
+                </span>
+            </div>
+            <img class="w-full" src="https://developer-256.github.io/ecommerce-website/img/banner/b10.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Three cards goes here -->
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 m-10 lg:mx-24">
+        <div class="relative ">
+            <div class="absolute top-1/2 transform -translate-y-1/2 p-7">
+                <h1 class=" md:text-2xl  text-sm font-semibold text-white">SEASONAL SALE</h1>
+                <p class="md:text-lg font-semibold text-pink-400 text-sm">Winter Collection 2023</p>
+            </div>
+            <img class="w-full h-full" src="https://developer-256.github.io/ecommerce-website/img/banner/b7.jpg" alt="">
+
+        </div>
+
+        <div class="relative ">
+            <div class="absolute top-1/2 transform -translate-y-1/2 p-7">
+                <h1 class="md:text-2xl  text-sm font-semibold text-white">FOOTWARE COLLECTION</h1>
+                <p class="md:text-lg font-semibold text-pink-400 text-sm">Winter Collection 2023</p>
+            </div>
+            <img class="w-full h-full" src="https://developer-256.github.io/ecommerce-website/img/banner/b4.jpg" alt="">
+
+        </div>
+
+        <div class="relative ">
+            <div class="absolute top-1/2 transform -translate-y-1/2 p-7">
+                <h1 class="md:text-2xl  text-sm font-semibold text-white">T-SHIRTS</h1>
+                <p class="md:text-lg text-sm font-semibold text-pink-400">Winter Collection 2023</p>
+            </div>
+            <img class="w-full h-full" src="https://developer-256.github.io/ecommerce-website/img/banner/b18.jpg"
+                alt="">
+
+        </div>
+    </div>
+
+
+    <!-- newsletter goes here -->
+    <div
+        class="flex md:justify-between my-10 bg-slate-900 p-10 text-white  flex-col lg:flex-row justify-center items-center gap-4">
+        <div class="flex justify-center flex-col items-center gap-1 lg:items-start">
+            <div class="text-lg lg:text-2xl">Sign Up for Newsletter</div>
+            <div class="text-sm lg:text-lg">Get E-mail updates about our latest shop and <span
+                    class="text-yellow-600">special
+                    offers</span></div>
+        </div>
+        <div class="flex">
+            <input class="p-2 rounded-l-md border border-gray-300 outline-none text-black" type="text"
+                placeholder="Enter Your Email">
+            <button class="bg-green-400 text-white  md:p-2 rounded-r-md border border-green-400">Sign up</button>
+        </div>
+    </div>
+
+    <!-- footer  goes here -->
+
+    <div class="my-8 px-6 lg:px-16 grid grid-cols-1 lg:grid-cols-4 gap-14 md:grid-cols-2 md:px-10">
+        <div class="flex flex-col gap-1 ">
+            <div class="font-semibold text-gray-700 pb-4">Contact</div>
+            <div><span class="font-semibold text-gray-700">Address: </span><span class="text-gray-500">562 ipsum dolor,
+                    sit amet consectetur adipisicing.</span></div>
+            <div><span class="font-semibold text-gray-700">Phone:</span> <span class="text-gray-500">1234567890</span>
+            </div>
+            <div><span class="font-semibold text-gray-700">Hours:</span> <span class="text-gray-500">24/7</span></div>
+            <div class="font-semibold text-gray-700 pt-2">Follow Us:</div>
+            <div class="text-gray-700 flex gap-2"><i class="ri-facebook-fill"></i><i class="ri-twitter-x-line"></i><i
+                    class="ri-instagram-fill"></i><i class="ri-youtube-line"></i></div>
+        </div>
+        <div class="flex flex-col gap-1">
+            <h1 class="pb-4 text-gray-900 font-semibold">About</h1>
+            <ul class="flex flex-col gap-1 justify-center">
+                <li class="text-gray-700">About Us </li>
+                <li class="text-gray-700">Delivery Information</li>
+                <li class="text-gray-700"> Privacy Policy</li>
+                <li class="text-gray-700">Terms & Conditions</li>
+                <li class="text-gray-700">Contact Us</li>
+            </ul>
+        </div>
+        <div class="flex flex-col gap-1">
+            <h1 class="pb-4 text-gray-900 font-semibold">My Account</h1>
+            <ul class="flex flex-col gap-1 justify-center">
+                <li class="text-gray-700">Sign In </li>
+                <li class="text-gray-700">View Cart</li>
+                <li class="text-gray-700">My Wishlist</li>
+                <li class="text-gray-700">Track My order</li>
+                <li class="text-gray-700">Help</li>
+            </ul>
+        </div>
+        <div class="flex flex-col gap-1">
+            <h1 class="pb-4 text-gray-900 font-semibold">Install App</h1>
+            <p class="text-gray-500">From App Store or Google Play</p>
+            <div class="flex gap-3">
+                <img class="w-28
+                " src="https://developer-256.github.io/ecommerce-website/img/gplayLogo.png" alt="">
+                <img class="w-28
+                " src="https://developer-256.github.io/ecommerce-website/img/appstorLogo.png" alt="">
+            </div>
+            <p class="text-gray-500">Secured Payment Gateway</p>
+            <div class="flex ">
+                <img class="h-10" src="https://developer-256.github.io/ecommerce-website/img/mastercard.png" alt="">
+                <img class="h-10" src="https://developer-256.github.io/ecommerce-website/img/visa.png" alt="">
+                <img class="h-10" src="https://developer-256.github.io/ecommerce-website/img/paypal.png" alt="">
+                <img class="h-10" src="https://developer-256.github.io/ecommerce-website/img/gpay.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <p class="flex justify-center mb-8">© 2024 Click Here for Developer's Github</p>
+</body>
+
+</html>
